@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="actividad_1.html" method="get">
+        <label for ="Nombre">Nombre del estudiante</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Gonzalo">
+        <hr>
+        <label for ="Correo">Correo del estudiante</label>
+        <input type="email" id="Correo" name="Correo" placeholder="20243432@aloe.ulima.edu.pe">
+        <hr>
+        <label for ="Codigo">Codigo del estudiante</label>
+        <input type="text" id="Codigo" name="Codigo" placeholder="20243432">
+        <hr>
+        <p>Seleccione la carrera del estudiante</p>
+        <label for ="Sistemas">Ingenieria de sistemas</label>
+        <input type="radio" id="Sistemas" name="Carrera" value="Sistemas">
+        <label for ="Industrial">Ingenieria industrial</label>
+        <input type="radio" id="Industrial" name="Carrera" value="Industrial">
+        <hr>
+        <p>Acepta el envio de estos datos?</p>
+        <label for ="Verificacion">Verificacion</label>
+        <input type="checkbox" id="Verificacion" name="Verificacion" required>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
